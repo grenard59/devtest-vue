@@ -100,10 +100,6 @@
 </script>
 
 <style scoped>
-  .bookmarkCardStyle {
-    margin: 10px;
-  }
-
   .bookmarkStyle {
     height: 400px;
 
@@ -113,9 +109,4 @@
     height: 145px;
     overflow-y: auto;
   }
-
-  .deleteBookmarkStyle {
-
-  }
-
 </style>

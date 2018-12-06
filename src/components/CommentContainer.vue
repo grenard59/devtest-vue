@@ -88,7 +88,6 @@
       },
 
       commentReceived (data) {
-        console.log(data)
         if (_.get(data, 'city') === this.city) {
           console.log('update message')
           this.items = _.get(data, 'messages')

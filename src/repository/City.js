@@ -43,7 +43,6 @@ export default {
    * Add a new comment
    */
   async addComment (city, message, author) {
-    console.log(city, message, author)
     const res = await fetch(API_URL + API_CITY + API_CITY_COMMENT, {
       method: 'POST',
       body: JSON.stringify({
