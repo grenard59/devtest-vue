@@ -17,10 +17,10 @@ Run the following command
 * `yarn install`
 
 ### Configure the server 
-Inside : `/src/Constants.js
+Inside : `/src/Constants.js`
 
 #### Create secret token
-Edit the MASTER_KEY with the same value as in `Pingflow Api server`
+Edit the `MASTER_KEY` with the same value as in `Pingflow Api server`
 
 #### Edit the API server url
  Edit the `API_URL` to match the `Pingflow Api server` URL
